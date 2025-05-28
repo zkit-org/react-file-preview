@@ -1,3 +1,9 @@
+import { FilePreview } from 'react-file-preview'
+
 export default function Home() {
-  return <div>playground</div>;
+  return (
+    <div>
+      <FilePreview />
+    </div>
+  )
 }
